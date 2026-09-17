@@ -12,6 +12,12 @@ import crystalPhotoAsset from "@/assets/art-by-nuella-crystal-photo.jpg.asset.js
 import notebooksAsset from "@/assets/art-by-nuella-notebooks.jpg.asset.json";
 import teacherGiftAsset from "@/assets/art-by-nuella-teacher-gift.jpg.asset.json";
 import bottlesAsset from "@/assets/art-by-nuella-bottles.jpg.asset.json";
+import mugsImg from "@/assets/art-by-nuella-mugs.jpg";
+import tshirtImg from "@/assets/art-by-nuella-tshirt.jpg";
+import toteImg from "@/assets/art-by-nuella-tote.jpg";
+import boardDetailImg from "@/assets/art-by-nuella-board-detail.jpg";
+import crystalPlaqueImg from "@/assets/art-by-nuella-crystal-plaque.jpg";
+import celebrationGiftImg from "@/assets/art-by-nuella-celebration-gift.jpg";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -81,6 +87,42 @@ const gallery = [
     alt: "Photo crystal keepsake with engraved portrait",
     title: "Photo Crystals",
     className: "md:col-span-1",
+  },
+  {
+    src: mugsImg,
+    alt: "Engraved ceramic mugs in cream and sage with gold botanical designs",
+    title: "Engraved Mugs",
+    className: "md:col-span-1",
+  },
+  {
+    src: tshirtImg,
+    alt: "Custom printed black t-shirt with a warm abstract design",
+    title: "Custom Tees",
+    className: "md:col-span-2",
+  },
+  {
+    src: toteImg,
+    alt: "Canvas tote bag with a custom printed design in warm tones",
+    title: "Printed Totes",
+    className: "md:col-span-1",
+  },
+  {
+    src: boardDetailImg,
+    alt: "Close-up of laser engraving detail on a wooden board",
+    title: "Engraving Detail",
+    className: "md:col-span-2",
+  },
+  {
+    src: crystalPlaqueImg,
+    alt: "Engraved crystal plaque glowing on an illuminated base",
+    title: "Crystal Plaques",
+    className: "md:col-span-1",
+  },
+  {
+    src: celebrationGiftImg,
+    alt: "Elegant wrapped gift with gold ribbon and keepsake card",
+    title: "Celebration Gifts",
+    className: "md:col-span-2",
   },
 ];
 
