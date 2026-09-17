@@ -8,16 +8,16 @@ import logoAsset from "@/assets/art-by-nuella-logo.png.asset.json";
 import merchGalleryAsset from "@/assets/art-by-nuella-merch-gallery.jpg.asset.json";
 import giftBasketAsset from "@/assets/art-by-nuella-gift-basket.jpg.asset.json";
 import engravedBoardAsset from "@/assets/art-by-nuella-engraved-board.jpg.asset.json";
-import crystalPhotoAsset from "@/assets/art-by-nuella-crystal-photo.jpg.asset.json";
+import crystalPhotoUpscaledImg from "@/assets/art-by-nuella-crystal-photo-upscaled.jpg";
 import notebooksAsset from "@/assets/art-by-nuella-notebooks.jpg.asset.json";
 import teacherGiftAsset from "@/assets/art-by-nuella-teacher-gift.jpg.asset.json";
 import bottlesAsset from "@/assets/art-by-nuella-bottles.jpg.asset.json";
-import mugsImg from "@/assets/art-by-nuella-mugs.jpg";
+import engravedTumblersAsset from "@/assets/art-by-nuella-engraved-tumblers.jpg.asset.json";
 import tshirtImg from "@/assets/art-by-nuella-tshirt.jpg";
 import toteImg from "@/assets/art-by-nuella-tote.jpg";
 import boardDetailImg from "@/assets/art-by-nuella-board-detail.jpg";
 import crystalPlaqueImg from "@/assets/art-by-nuella-crystal-plaque.jpg";
-import celebrationGiftImg from "@/assets/art-by-nuella-celebration-gift.jpg";
+import celebrationGiftBasketAsset from "@/assets/art-by-nuella-celebration-gift-basket.jpg.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -83,15 +83,15 @@ const gallery = [
     className: "md:col-span-1",
   },
   {
-    src: crystalPhotoAsset.url,
+    src: crystalPhotoUpscaledImg,
     alt: "Photo crystal keepsake with engraved portrait",
     title: "Photo Crystals",
     className: "md:col-span-1",
   },
   {
-    src: mugsImg,
-    alt: "Engraved ceramic mugs in cream and sage with gold botanical designs",
-    title: "Engraved Mugs",
+    src: engravedTumblersAsset.url,
+    alt: "Personalized black and cream tumblers with custom business and church logos",
+    title: "Engraved Tumblers",
     className: "md:col-span-1",
   },
   {
@@ -119,8 +119,8 @@ const gallery = [
     className: "md:col-span-1",
   },
   {
-    src: celebrationGiftImg,
-    alt: "Elegant wrapped gift with gold ribbon and keepsake card",
+    src: celebrationGiftBasketAsset.url,
+    alt: "Wrapped woven celebration gift basket finished with a personalized gold ribbon",
     title: "Celebration Gifts",
     className: "md:col-span-2",
   },
