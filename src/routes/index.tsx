@@ -160,8 +160,8 @@ function Index() {
       </header>
 
       <section id="top" className="craft-texture pt-24">
-        <div className="mx-auto grid min-h-[calc(100vh-4rem)] max-w-7xl items-center gap-8 px-4 pb-10 sm:px-6 lg:grid-cols-[0.92fr_1.08fr] lg:px-8">
-          <div className="max-w-2xl py-8 lg:py-16">
+        <div className="mx-auto grid max-w-7xl items-start gap-8 px-4 pb-10 pt-8 sm:px-6 sm:pt-12 lg:grid-cols-[0.92fr_1.08fr] lg:px-8 lg:pt-16">
+          <div className="max-w-2xl py-4 lg:py-8">
             <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-craft-line bg-card/80 px-4 py-2 text-xs font-bold uppercase text-craft-charcoal shadow-sm">
               <MapPin className="size-4 text-accent" />
               Calgary · Chestermere · Airdrie
