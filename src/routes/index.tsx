@@ -278,7 +278,7 @@ function Index() {
           <div className="grid auto-rows-[18rem] grid-cols-1 gap-4 md:grid-cols-3">
             {gallery.map((item) => (
               <figure key={item.title} className={`group relative overflow-hidden rounded-md border border-primary-foreground/15 bg-card ${item.className}`}>
-                <img src={item.src} alt={item.alt} className="size-full object-cover transition duration-500 group-hover:scale-105" />
+                <img src={item.src} alt={item.alt} loading="lazy" className="size-full object-cover transition duration-500 group-hover:scale-105" />
                 <figcaption className="absolute inset-x-0 bottom-0 bg-craft-scrim px-4 py-3 backdrop-blur-sm">
                   <span className="font-display text-xl font-extrabold text-primary-foreground">{item.title}</span>
                 </figcaption>
