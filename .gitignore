@@ -5,3 +5,5 @@ _archive-violet-version/
 .claude/
 __pycache__/
 *.bak
+
+_build/*.tmp
