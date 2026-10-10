@@ -59,10 +59,19 @@
     });
   }
 
-  /* quote form
-     FORM_ENDPOINT: paste the Google Apps Script "web app" URL here (see _setup/README-forms.md).
-     While it is empty the form just shows the thank-you message (demo mode) and sends nothing. */
-  var FORM_ENDPOINT = '';
+  /* quote form -> Google Form (see _setup/README-forms.md)
+     FORM_ENDPOINT is the Google Form's formResponse URL; FORM_FIELDS maps each site field to the form's entry ID.
+     While FORM_ENDPOINT is empty the form just shows the thank-you message (demo mode) and sends nothing. */
+  var FORM_ENDPOINT = 'https://docs.google.com/forms/d/e/1FAIpQLSdcPyLheGA7Jh9cE_WZAaae0tqj5CxqXGSdTr7glyrTBEvTpw/formResponse';
+  var FORM_FIELDS = {
+    name: 'entry.1054831464',
+    contact: 'entry.2031318595',
+    city: 'entry.764857016',
+    when: 'entry.622506496',
+    type: 'entry.1764117664',
+    details: 'entry.2024528266',
+    page: 'entry.1004103999'
+  };
   var PHONE_TEXT = '+1 (587) 664-7416';
 
   document.querySelectorAll('form.quote-form').forEach(function (form) {
@@ -79,12 +88,17 @@
 
     form.addEventListener('submit', function (e) {
       e.preventDefault();
-      var data = new URLSearchParams(new FormData(form));
-      if (data.get('website')) { thanks(); return; }            /* honeypot: bots fill this, people never see it */
-      data.delete('website');
-      data.append('page', (location.pathname.split('/').pop() || 'index.html'));
+      var raw = new FormData(form);
+      if (raw.get('website')) { thanks(); return; }             /* honeypot: bots fill this, people never see it */
+      raw.delete('website');
+      raw.append('page', (location.pathname.split('/').pop() || 'index.html'));
       if (err) err.classList.remove('show');
       if (!FORM_ENDPOINT) { thanks(); return; }                 /* demo mode */
+      var data = new URLSearchParams();
+      Object.keys(FORM_FIELDS).forEach(function (k) {
+        var v = (raw.get(k) || '').toString().trim();
+        data.append(FORM_FIELDS[k], v || '(not provided)');     /* Google Forms rejects empty required answers */
+      });
 
       var label = btn.textContent;
       btn.disabled = true; btn.textContent = 'Sending...';
