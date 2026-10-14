@@ -11,6 +11,8 @@ EMAIL = "artbynuella@gmail.com"
 IG_URL = "https://www.instagram.com/artbynuella/"
 GOOGLE_URL = "https://share.google/pqAPcqJjy4SCjmEKZ"
 AREAS = "Calgary · Chestermere · Airdrie"
+# Where to find us: neighbourhoods only, no street address (Peter, 2026-10-14; the old Rundleson Rd spot is gone)
+LOCATIONS = ["Sunridge, Calgary", "Dawson, Chestermere"]
 
 NAV = [
     ("events.html", "Events"),
@@ -128,12 +130,12 @@ def quote_section(default=None, heading="Tell us what you want made.", sub="Send
     return f"""<section class="fast" id="quote-info">
   <div class="wrap">
     <h2>Fastest way to start</h2>
-    <p>Call, email or send a quick request. No cart, just talk to a maker.</p>
+    <p>Call, email or send a quick request. No cart, just talk to a maker. Serving {AREAS.replace(' · ', ', ', 1).replace(' · ', ' and ')}.</p>
     <div class="fast-grid">
       <div><div class="label">Phone</div><div class="value"><a href="tel:{TEL}">{PHONE}</a></div></div>
       <div><div class="label">Email</div><div class="value"><a href="mailto:{EMAIL}">{EMAIL}</a></div></div>
       <div><div class="label">Instagram</div><div class="value"><a href="{IG_URL}" target="_blank" rel="noopener">@artbynuella</a></div></div>
-      <div><div class="label">Serving</div><div class="value">{AREAS}</div></div>
+      <div><div class="label">Find us</div><div class="value">{'<br>'.join(LOCATIONS)}</div></div>
     </div>
   </div>
 </section>
@@ -214,7 +216,7 @@ def footer():
         <p>Personalized gifts crafted with love. Family-owned and operated, made locally for {AREAS.replace(' · ', ', ')}.</p></div>
       <div><h5>Explore</h5>{ln}</div>
       <div><h5>Contact</h5><a href="tel:{TEL}">{PHONE}</a><a href="mailto:{EMAIL}">{EMAIL}</a><a href="{IG_URL}" target="_blank" rel="noopener">Instagram @artbynuella</a><a href="{GOOGLE_URL}" target="_blank" rel="noopener">Google reviews</a></div>
-      <div><h5>Serving</h5><p>Calgary<br>Chestermere<br>Airdrie<br>and nearby areas</p></div>
+      <div><h5>Find us</h5><p>{'<br>'.join(LOCATIONS)}</p><h5 style="margin-top:18px">Serving</h5><p>Calgary, Chestermere, Airdrie and nearby areas</p></div>
     </div>
     <div class="foot-base">© <span id="year">2026</span> Art by Nuella · Calgary, Chestermere &amp; Airdrie</div>
   </div>
