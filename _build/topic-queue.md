@@ -4,8 +4,8 @@ The scheduled blog task takes the first unchecked topic, writes the post, and ti
 Add topics anytime. Format: `- [ ] Title idea | Category | cover image filename | CTA project type`.
 Categories in use: Events, Weddings, Gift ideas, Crystals, Apparel, Business. CTA type must match the quote form options.
 
-- [ ] How to plan baby shower favours guests will keep | Events | event-baby-shower.jpg | Baby or bridal shower
-- [ ] Bridesmaid and groomsmen gift ideas that are not another mug | Weddings | event-bridal-party.jpg | Wedding
+- [x] How to plan baby shower favours guests will keep | Events | event-baby-shower.jpg | Baby or bridal shower | published 2026-10-30 | baby-shower-favours-guests-keep
+- [x] Bridesmaid and groomsmen gift ideas that are not another mug | Weddings | event-bridal-party.jpg | Wedding | published 2026-10-30 | bridesmaid-and-groomsmen-gift-ideas
 - [ ] Graduation gifts and favours: what to give and when to order | Events | event-graduation.jpg | Graduation
 - [ ] How to choose a teacher gift that is personal, not pricey | Gift ideas | teacher-gift.jpg | Gift basket
 - [ ] What to engrave on a cutting board: wording ideas for weddings, housewarmings and anniversaries | Gift ideas | engraved-board.jpg | Chopping board
