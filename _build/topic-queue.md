@@ -6,11 +6,11 @@ Categories in use: Events, Weddings, Gift ideas, Crystals, Apparel, Business. CT
 
 - [x] How to plan baby shower favours guests will keep | Events | event-baby-shower.jpg | Baby or bridal shower | published 2026-10-30 | baby-shower-favours-guests-keep
 - [x] Bridesmaid and groomsmen gift ideas that are not another mug | Weddings | event-bridal-party.jpg | Wedding | published 2026-10-30 | bridesmaid-and-groomsmen-gift-ideas
-- [ ] Graduation gifts and favours: what to give and when to order | Events | event-graduation.jpg | Graduation
-- [ ] How to choose a teacher gift that is personal, not pricey | Gift ideas | teacher-gift.jpg | Gift basket
+- [x] Graduation gifts and favours: what to give and when to order | Events | event-graduation.jpg | Graduation | published 2026-11-02 | graduation-gifts-and-favours
+- [x] How to choose a teacher gift that is personal, not pricey | Gift ideas | teacher-gift.jpg | Gift basket | published 2026-11-02 | teacher-gift-personal-not-pricey
 - [ ] What to engrave on a cutting board: wording ideas for weddings, housewarmings and anniversaries | Gift ideas | engraved-board.jpg | Chopping board
-- [ ] Memorial gifts: a thoughtful way to remember someone | Crystals | event-memorial.jpg | Photo crystal
-- [ ] Staff and team apparel: how to order shirts and hoodies without the headaches | Apparel | tshirt-logo.jpg | Custom apparel
+- [x] Memorial gifts: a thoughtful way to remember someone | Crystals | event-memorial.jpg | Photo crystal | published 2026-11-02 | memorial-gifts-remembering-someone
+- [x] Staff and team apparel: how to order shirts and hoodies without the headaches | Apparel | tshirt-logo.jpg | Custom apparel | published 2026-11-02 | team-apparel-ordering-guide
 - [ ] Gift basket ideas for every occasion and how to build one that feels personal | Gift ideas | celebration-basket.jpg | Gift basket
 - [ ] Which photos make the best 3D crystals: a simple checklist | Crystals | couple-rose.jpg | Photo crystal
 - [ ] Personalized gifts for new parents and new babies | Gift ideas | baby-led.jpg | Gift basket
