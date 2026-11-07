@@ -8,11 +8,11 @@ Categories in use: Events, Weddings, Gift ideas, Crystals, Apparel, Business. CT
 - [x] Bridesmaid and groomsmen gift ideas that are not another mug | Weddings | event-bridal-party.jpg | Wedding | published 2026-10-30 | bridesmaid-and-groomsmen-gift-ideas
 - [x] Graduation gifts and favours: what to give and when to order | Events | event-graduation.jpg | Graduation | published 2026-11-02 | graduation-gifts-and-favours
 - [x] How to choose a teacher gift that is personal, not pricey | Gift ideas | teacher-gift.jpg | Gift basket | published 2026-11-02 | teacher-gift-personal-not-pricey
-- [ ] What to engrave on a cutting board: wording ideas for weddings, housewarmings and anniversaries | Gift ideas | engraved-board.jpg | Chopping board
+- [x] What to engrave on a cutting board: wording ideas for weddings, housewarmings and anniversaries | Gift ideas | engraved-board.jpg | Chopping board | published 2026-11-06 | what-to-engrave-on-a-cutting-board
 - [x] Memorial gifts: a thoughtful way to remember someone | Crystals | event-memorial.jpg | Photo crystal | published 2026-11-02 | memorial-gifts-remembering-someone
 - [x] Staff and team apparel: how to order shirts and hoodies without the headaches | Apparel | tshirt-logo.jpg | Custom apparel | published 2026-11-02 | team-apparel-ordering-guide
 - [ ] Gift basket ideas for every occasion and how to build one that feels personal | Gift ideas | celebration-basket.jpg | Gift basket
-- [ ] Which photos make the best 3D crystals: a simple checklist | Crystals | couple-rose.jpg | Photo crystal
+- [x] Which photos make the best 3D crystals: a simple checklist | Crystals | couple-rose.jpg | Photo crystal | published 2026-11-06 | which-photos-make-the-best-3d-crystals
 - [ ] Personalized gifts for new parents and new babies | Gift ideas | baby-led.jpg | Gift basket
 - [ ] Family reunion planning: shirts, favours and keepsakes | Events | event-family-reunion.jpg | Event favours or gifts
 - [ ] Engraved vs printed: how to pick the right way to personalize a gift | Gift ideas | engraved-bottle.jpg | Engraved cup or bottle
