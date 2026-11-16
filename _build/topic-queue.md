@@ -11,10 +11,10 @@ Categories in use: Events, Weddings, Gift ideas, Crystals, Apparel, Business. CT
 - [x] What to engrave on a cutting board: wording ideas for weddings, housewarmings and anniversaries | Gift ideas | engraved-board.jpg | Chopping board | published 2026-11-06 | what-to-engrave-on-a-cutting-board
 - [x] Memorial gifts: a thoughtful way to remember someone | Crystals | event-memorial.jpg | Photo crystal | published 2026-11-02 | memorial-gifts-remembering-someone
 - [x] Staff and team apparel: how to order shirts and hoodies without the headaches | Apparel | tshirt-logo.jpg | Custom apparel | published 2026-11-02 | team-apparel-ordering-guide
-- [ ] Gift basket ideas for every occasion and how to build one that feels personal | Gift ideas | celebration-basket.jpg | Gift basket
+- [x] Gift basket ideas for every occasion and how to build one that feels personal | Gift ideas | celebration-basket.jpg | Gift basket | published 2026-11-16 | gift-basket-ideas-for-every-occasion
 - [x] Which photos make the best 3D crystals: a simple checklist | Crystals | couple-rose.jpg | Photo crystal | published 2026-11-06 | which-photos-make-the-best-3d-crystals
 - [ ] Personalized gifts for new parents and new babies | Gift ideas | baby-led.jpg | Gift basket
-- [ ] Family reunion planning: shirts, favours and keepsakes | Events | event-family-reunion.jpg | Event favours or gifts
+- [x] Family reunion planning: shirts, favours and keepsakes | Events | event-family-reunion.jpg | Event favours or gifts | published 2026-11-16 | family-reunion-planning-shirts-favours-keepsakes
 - [ ] Engraved vs printed: how to pick the right way to personalize a gift | Gift ideas | engraved-bottle.jpg | Engraved cup or bottle
 - [ ] Employee recognition awards that feel earned | Business | award-pillar.jpg | Plaque or award
 - [ ] Holiday gifting for clients and staff: how to plan early | Business | gift-basket.jpg | Corporate or team event
